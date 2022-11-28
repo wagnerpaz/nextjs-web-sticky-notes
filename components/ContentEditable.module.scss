@@ -1,0 +1,15 @@
+.container {
+  max-height: 100%;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  overflow: auto;
+  padding: 10px;
+  text-align: center;
+
+  &Selected {
+    border: 1px dotted #468afd;
+    user-select: none;
+  }
+}

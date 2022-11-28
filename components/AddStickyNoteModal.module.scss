@@ -1,0 +1,87 @@
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000050;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.title {
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.fieldGroup {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fieldGroupItem {
+  width: 50%;
+}
+
+.input {
+  padding: 10px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  resize: none;
+  width: 100%;
+}
+
+.groupedInput {
+  width: 100%;
+}
+
+.cancelButton {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.submitButton {
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: lightgray;
+  border-radius: 3px;
+  width: 100px;
+  cursor: pointer;
+
+  &:hover {
+    font-weight: 500;
+    user-select: none;
+  }
+}
+
+.footer {
+  padding-top: 10px;
+  border-top: 1px solid lightgray;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+
+  &:hover {
+    font-weight: 500;
+    user-select: none;
+  }
+}
