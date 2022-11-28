@@ -30,7 +30,7 @@ const StickyNotesApp = () => {
     setAddModalVisible(true);
   };
 
-  const handleRemoveClick = (selectedStickyNote: StickyNote) => {
+  const handleRemoveClick = (selectedStickyNote?: StickyNote) => {
     if (selectedStickyNote) {
       deleteStickyNote(selectedStickyNote).then(() => {
         setStickies(stickies.filter((s) => s.id !== selectedStickyNote.id));
