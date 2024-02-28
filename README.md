@@ -1,8 +1,8 @@
+# Stick Notes Web App
+
+A basic sticky notes web app.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-# Stick Notes Challenge (**e-core**)
-
-A basic sticky notes app created for a challenge given by the e-core company as part of the vetting process.
 
 ## Tech Stack
 
